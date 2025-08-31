@@ -35,9 +35,9 @@ export const AuthLayout: React.FC<AuthLayoutProps> = ({ children }) => {
         <div className="absolute -bottom-40 -left-32 w-80 h-80 bg-gradient-to-tr from-cyan-400 to-blue-600 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-2000"></div>
       </div> */}
 
-      {/* <div className="relative z-10 w-full">
+      <div className="relative z-10 w-full">
         {children}
-      </div> */}
+      </div> 
     </div>
   );
 };
